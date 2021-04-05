@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="utf-8">
+        <title>Задание11</title>
+  </head>
+  <body>
+        <h3>Химические элементы</h3>
+        <table>
+            <tr>
+                <td>Номер</td>
+                <td>Название</td>
+                <td>Символ</td>
+                <td>Год</td>
+                <td>Статья</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td><a href="#">Водород</a></td>
+                <td><strong>Н</strong></td>
+                <td>1766</td>
+                <td><a href="#"><img src="https://img-fotki.yandex.ru/get/15533/136164467.4/0_f44d7_657fd5c4_orig.png" width="40px"></a></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><a href="#">Гелий</a></td>
+                <td><strong>Не</strong></td>
+                <td>1895</td>
+                <td><a href="#"><img src="https://img-fotki.yandex.ru/get/15533/136164467.4/0_f44d7_657fd5c4_orig.png" width="40px"></a></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><a href="#">Бор</a></td>
+                <td><strong>В</strong></td>
+                <td>1808</td>
+                <td><a href="#"><img src="https://img-fotki.yandex.ru/get/15533/136164467.4/0_f44d7_657fd5c4_orig.png" width="40px"></a></td>
+            </tr>
+        </table><hr>
+        <h3>Запись на курсы</h3>
+            <form action="mailto:Smoke52ru@yandex.ru" method="post">
+                <div>
+                    <label>Имя:</label><br/><input type="text" placeholder="Введите своё имя..." name="name">
+                </div><br>
+                <div>
+                    <label>Язык программирования:</label><br>
+                    <input type="radio" name="lang" value="cpp" id="cpp"><label for="cpp">C++</label><br>
+                    <input type="radio" name="lang" value="php" id="php" checked><label for="php">PHP</label><br>
+                    <input type="radio" name="lang" value="py" id="py"><label for="py">Python</label>
+                </div><br>
+                <div>
+                    <label>Дополнительная информация:</label><br>
+                    <textarea name="txt" cols="35" rows="4" placeholder="Есть опыт программирования на C++"></textarea>
+                </div>
+                <div>
+                    <label>Секретное слово:</label><br>
+                    <input type="password">
+                </div><br>
+                <div>
+                    <input type="submit" value="Отправить">
+                    <input type="reset" value="Очистить">
+                </div>
+            </form>
+  </body>
+</html>

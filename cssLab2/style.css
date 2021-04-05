@@ -1,0 +1,81 @@
+#calendar a:link, #calendar a:visited{ 
+    color:#506361; 
+    text-decoration: none;
+}
+#calendar a.holiday{
+	color:rgb(255, 100, 100);
+
+}
+#calendar a:hover{
+	color: #E93301;
+	text-decoration: underline;
+	font-weight: bolder;
+	font-size: 18px;
+}
+#calendar a{
+    font-family: Arial; 
+    font-size: 20px; 
+    line-height: 1; 
+}
+#calendar{
+	width: 150px;
+	margin: 20px 0px;
+}
+#calendar table{
+    width: 100%; 
+    height: 100%;
+}
+#calendar td{
+    text-align: center;
+}
+#calendar th{
+    border-bottom: 1px solid #000000;
+}
+
+
+
+#menu1{
+	width: 100%;
+	background-color: #FC9D00;
+	font-family: Arial;
+} 
+#menu1 li{
+	display: inline-block;
+}
+#menu1 a:link, #menu1 a:visited{
+	color: #FFFFFF; 
+	text-decoration: none; 
+	display: block;
+	padding: 0px 13px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 13px;
+}
+#menu1 a:hover{
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #E93301;
+}
+#menu1 ul{
+	margin-left: 13px;
+	padding: 0px;
+}
+
+
+#menu2 ul{list-style-type: none; width: 200px;}
+#menu2 li{margin-bottom: 5px;}
+#menu2 a:link, #menu2 a:visited{
+	text-decoration: none;
+	color: white;
+	font: 13px Arial;
+	border: 1px solid #0081E7;
+	display: block;
+	padding: 0px 5px;
+	line-height: 30px;
+	background-color: #0081E7;
+	font-weight: bold
+}
+#menu2 a:hover, #menu2 a.active{
+	color: blue;
+	background: #fff url(http://old.code.mu/exercises/css/praktika-po-sozdaniyu-gorizontalnyh-i-vertikalnyh-menyushek/1/images/blue.png) no-repeat 90% center;
+}
