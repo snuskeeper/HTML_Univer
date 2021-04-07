@@ -1,0 +1,75 @@
+#Task1{
+	background-color: slategray;
+}
+#Task1 #blocksborder {
+	border: 3px solid black;
+	padding: 5%;
+	margin: 10%;
+}
+#Task1 .leftcol {
+	float: left;
+	width: 30%;
+}
+#Task1 .rightcol {
+	margin-left: 30%;
+	width: 70%;
+}
+#Task1 .block {
+	border: 3px solid black;
+	padding: 50px;
+	margin: 30px;
+}
+#blockr {
+	background-color: red;
+	height: 70px;
+}
+#blockb {
+	background-color: blue;
+	height: 10px;
+}
+#blockg {
+	background-color: green;	
+	height: 10px;
+}
+#blocky {
+	background-color: yellow;
+	height: 70px;
+}
+
+
+#Task2 {
+	height: 80%;
+}
+#Task2 #header {
+	background-color: aquamarine;
+}
+#Task2 #body {
+	background-color: maroon;
+	width: auto;
+	height: 80%;
+	padding: 5px;
+}
+#Task2 .sidebar {  
+	background-color: bisque;
+	float: left; 
+	width: 20%;
+	height: auto; 
+}
+#Task2 .sidebar ul{
+	padding-left: 3%;
+}
+#Task2 .content { 
+	background-color: dimgrey;
+	width: auto;
+	height: auto;
+	margin-left: 21%; 
+	padding-left: 1%;
+}
+#Task2 #footer {
+	margin-top: 10px;
+	width: 100%; 
+	min-height: 50px;
+	clear: both;
+	background-color: khaki;
+	text-align: center;
+}
